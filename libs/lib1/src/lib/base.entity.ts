@@ -1,7 +1,7 @@
 import { CreateDateColumn, Entity, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity()
-export class libEntity {
+export class BaseEntity {
   @PrimaryGeneratedColumn()
   id: number;
   @CreateDateColumn()
